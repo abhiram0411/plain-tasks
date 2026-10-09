@@ -1,6 +1,6 @@
 // Emulator address. Physical phone: adb reverse tcp:3000 tcp:3000 and use 127.0.0.1.
 // Replace with an HTTPS API address for production.
-export const API_URL = 'http://127.0.0.1:3000';
+export const API_URL = 'https://plain-tasks-api.onrender.com';;
 export class ApiError extends Error {
   constructor(message: string, public status: number) {
     super(message);
